@@ -1,6 +1,7 @@
 # Redmine pandoc formatter
 require 'redmine'
 require 'redmine_pandoc_formatter'
+require 'redmine_pandoc_formatter/hooks/view_layouts_base_html_head'
 
 ::Rails.logger.info 'Starting pandoc formatter for Redmine'
 
