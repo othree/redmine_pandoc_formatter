@@ -11,7 +11,7 @@ This is a redmine plugin for supporting reStructuredText as a wiki format using 
 
 * Install [Pandoc](http://johnmacfarlane.net/pandoc/)
 * gem install pandoc-ruby
-* script/plugin install git://github.com/othree/redmine\_pandoc\_formatter.git
+* `git clone https://github.com/othree/redmine_pandoc_formatter.git plugins/redmine_pandoc_formatter`
 * Add `pandoc-ruby` to Gemfile
       gem "pandoc-ruby", "1.0.0"
 * Start Redmine
