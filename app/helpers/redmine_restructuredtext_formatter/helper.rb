@@ -1,4 +1,4 @@
-module RedmineRestructuredtextFormatter
+module RedminePandocFormatter
   module Helper
     unloadable
 
