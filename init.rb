@@ -1,7 +1,8 @@
 # Redmine pandoc formatter
 require 'redmine'
+require 'redmine_pandoc_formatter'
 
-RAILS_DEFAULT_LOGGER.info 'Starting pandoc formatter for Redmine'
+::Rails.logger.info 'Starting pandoc formatter for Redmine'
 
 Redmine::Plugin.register :redmine_pandoc_formatter do
   name 'pandoc formatter'
@@ -9,5 +10,5 @@ Redmine::Plugin.register :redmine_pandoc_formatter do
   description 'pandoc formatting for Redmine'
   version '0.0.1'
 
-  wiki_format_provider 'pandoc', RedminePandocFormatter::WikiFormatter, RedminePandocFormatter::Helper
+  wiki_format_provider 'pandoc', RedminePandocFormatter::Formatter, RedminePandocFormatter::Helper
 end

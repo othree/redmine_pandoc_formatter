@@ -6,6 +6,9 @@ module RedminePandocFormatter
       nil
     end
 
+    def initial_setup
+      nil
+    end
 
     def initial_page_content(page)
       "#{'='*page.pretty_title.length}\n#{page.pretty_title}\n#{'='*page.pretty_title.length}"
