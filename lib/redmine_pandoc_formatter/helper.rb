@@ -11,7 +11,7 @@ module RedminePandocFormatter
     end
 
     def initial_page_content(page)
-      "#{'='*page.pretty_title.length}\n#{page.pretty_title}\n#{'='*page.pretty_title.length}"
+      "#{page.pretty_title}\n#{'='*page.pretty_title.length}"
     end
 
     def heads_for_wiki_formatter
