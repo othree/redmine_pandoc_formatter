@@ -7,7 +7,7 @@ module RedminePandocFormatter
     end
 
     def to_html(&block)
-      PandocRuby.new(@text).to_html
+      PandocRuby.new(@text).to_html({ :email_obfuscation => :references })
     rescue => e
       return("<pre>problem parsing wiki text: #{e.message}\n"+
              "original text: \n"+
