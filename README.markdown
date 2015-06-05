@@ -1,5 +1,3 @@
-In development
-
 # Redmine pandoc Formatter
 
 This is a redmine plugin for supporting reStructuredText as a wiki format using [PandocRuby](http://rdoc.info/projects/autodata/pandoc-ruby) base on [alphabetum/redmine_restructuredtext_formatter][res]
