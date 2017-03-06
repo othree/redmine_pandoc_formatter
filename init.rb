@@ -9,7 +9,7 @@ Redmine::Plugin.register :redmine_pandoc_formatter do
   name 'pandoc formatter'
   author 'othree'
   description 'pandoc formatting for Redmine'
-  version '0.0.1'
+  version '1.0'
 
   wiki_format_provider 'pandoc', RedminePandocFormatter::Formatter, RedminePandocFormatter::Helper
 end
